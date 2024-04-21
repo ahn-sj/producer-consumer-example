@@ -1,6 +1,6 @@
 package com.example.queueservice.messaging;
 
-import com.example.queueservice.domain.Order;
+import com.example.producerservice.order.domain.Order;
 import com.example.queueservice.domain.OrderReceipt;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

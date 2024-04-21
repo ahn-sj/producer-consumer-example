@@ -1,4 +1,4 @@
-package com.example.queueservice.domain;
+package com.example.producerservice.order.domain;
 
 public class Order {
 
@@ -6,6 +6,9 @@ public class Order {
     private Long productId;
     private Long userId;
     private int price;
+
+    public Order() {
+    }
 
     public Order(final Long orderId, final Long productId, final Long userId, final int price) {
         this.orderId = orderId;
