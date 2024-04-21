@@ -1,10 +1,10 @@
-package com.example.producerconsumerexample;
+package com.example.queueservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProducerConsumerExampleApplicationTests {
+class QueueServiceApplicationTests {
 
     @Test
     void contextLoads() {
