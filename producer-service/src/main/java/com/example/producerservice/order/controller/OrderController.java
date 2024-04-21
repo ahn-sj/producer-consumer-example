@@ -14,7 +14,6 @@ public class OrderController {
 
     @PostMapping("/orders/{orderId}/complete")
     public void complete(@PathVariable("orderId") final Long orderId) {
-        System.out.println("OrderController.complete");
         OrderService.complete(orderId);
     }
 

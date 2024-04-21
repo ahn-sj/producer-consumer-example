@@ -1,4 +1,4 @@
-package com.example.producerservice.order.domain;
+package com.example.common.domain;
 
 public class Order {
 
@@ -31,5 +31,15 @@ public class Order {
 
     public int getPrice() {
         return price;
+    }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "orderId=" + orderId +
+                ", productId=" + productId +
+                ", userId=" + userId +
+                ", price=" + price +
+                '}';
     }
 }
